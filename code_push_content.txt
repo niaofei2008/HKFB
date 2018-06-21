@@ -1,0 +1,11 @@
+添加工程 code-push app add HKFB ios react-native
+
+iOS -Production:LWWPHPO_9_xCH_w1a-e-48GBPdFw854f6a80-3b10-4219-ade2-e8cd9fab56a6
+Android - Production:sG36AGH3BlhvnmQ7d3XTxuQaQVpX854f6a80-3b10-4219-ade2-e8cd9fab56a6
+发布jsbundle到微软:code-push release-react HKFB ios -d Production
+
+查看:code-push deployment ls HKFB
+
+ code-push app add HKFB-android android react-native
+
+code-push release-react HKFB-android android -d Production
